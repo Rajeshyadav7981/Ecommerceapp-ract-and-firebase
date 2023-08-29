@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+    /* Adjust the styles for screens with a maximum width of 767px */
+    .navbar-nav {
+      flex-direction: column; /* Stack the navigation links vertically */
+      align-items: flex-start; /* Align navigation links to the start of the container */
+      background-color: #f8f9fa; /* Background color for the collapsed menu */
+      border-top: 1px solid #dee2e6; /* Add a border at the top of the collapsed menu */
+      padding: 10px; /* Add padding to the collapsed menu */
+    }
+  }

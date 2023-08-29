@@ -1,0 +1,25 @@
+@media (max-width: 767px) {
+    /* Adjust the styles for screens with a maximum width of 767px */
+    .navbar-nav {
+      flex-direction: column; /* Stack the navigation links vertically */
+      align-items: flex-start; /* Align navigation links to the start of the container */
+      background-color: #f8f9fa; /* Background color for the collapsed menu */
+      border-top: 1px solid #dee2e6; /* Add a border at the top of the collapsed menu */
+      padding: 10px; /* Add padding to the collapsed menu */
+    }
+  }
+/* Apply this CSS code within your stylesheet or within a style tag in your HTML/JSX */
+
+/* Media query for screens with a maximum width of 767px (sm and below) */
+@media (max-width: 767px) {
+    /* Disable pointer events for the navigation links */
+    .navbar-nav .nav-item .nav-link {
+      pointer-events: none;
+    }
+  
+    /* Re-enable pointer events for the active navigation link */
+    .navbar-nav .nav-item.active .nav-link {
+      pointer-events: auto;
+    }
+  }
+  
